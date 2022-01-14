@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese');
+html,
+body {
+    height: 100%;
+    padding: 50px;
+    background-color: black;
+}
+
+a,
+a:hover,
+a:focus,
+input:focus,
+button:focus,
+textarea:focus {
+    outline: 0 solid;
+    text-decoration: none;
+}
+
+
+/* ========================= */
+
+.learn_more_btn {
+    display: inline-block;
+    padding: 10px 35px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #7821DC96;
+    border-radius: 5px;
+    transition: .5s;
+    position: relative;
+}
+
+.learn_more_btn:hover {
+    background-color: #01EAFB;
+    color: #000;
+}
+
+
+/* pulse effect start  */
+
+.pulse_effect {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, 0);
+    }
+}
+
+
+/* pulse effect end  */
